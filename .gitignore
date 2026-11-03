@@ -1,0 +1,21 @@
+# secrets / data — never commit
+backend/students.db
+backend/secret.key
+backend/*.db
+
+# python
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# editor/os
+.DS_Store
+Thumbs.db
+.vscode/
